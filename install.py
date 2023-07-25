@@ -73,6 +73,4 @@ try:
     skip_install = launch.args.skip_install
 except Exception:
     skip_install = False
-
-if not skip_install:
     install()
